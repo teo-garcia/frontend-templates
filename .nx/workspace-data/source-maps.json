@@ -1,0 +1,1324 @@
+{
+  "apps/react-template-next": {
+    "root": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/react-template-next/next.config.ts",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/react-template-next/next.config.ts",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.continuous": [
+      "apps/react-template-next/next.config.ts",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/react-template-next/next.config.ts",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.dependsOn": [
+      "apps/react-template-next/next.config.ts",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/react-template-next/next.config.ts",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.cwd": [
+      "apps/react-template-next/next.config.ts",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.command": [
+      "apps/react-template-next/next.config.ts",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/react-template-next/next.config.ts",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.continuous": [
+      "apps/react-template-next/next.config.ts",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/react-template-next/next.config.ts",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/react-template-next/next.config.ts",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/react-template-next/next.config.ts",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/react-template-next/next.config.ts",
+      "@nx/next/plugin"
+    ],
+    "name": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:unit": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:unit.executor": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:unit.options": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:unit.metadata": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:unit.options.script": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:unit.metadata.scriptContent": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:unit.metadata.runCommand": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.executor": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options.script": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.scriptContent": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.runCommand": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:js": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:js.executor": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:js.options": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:js.metadata": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:js.options.script": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:js.metadata.scriptContent": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:js.metadata.runCommand": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.executor": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.options": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.metadata": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.options.script": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.metadata.scriptContent": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.metadata.runCommand": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "apps/react-template-next/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:app": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.framework:next": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.outputPath": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.executor": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.defaultConfiguration": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.configurations": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.buildTarget": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.dev": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.configurations.development": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.configurations.development.buildTarget": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.configurations.production": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.configurations.production.buildTarget": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.configurations.production.dev": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.executor": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.defaultConfiguration": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.buildTarget": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.dev": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/react-template-next/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build:web.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build:web.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test:unit.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test:unit.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test:e2e.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test:e2e.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint:js.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint:js.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.prepare.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.prepare.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/react-template-rr": {
+    "root": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev:web": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev:web.executor": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev:web.options": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev:web.metadata": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev:web.options.script": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev:web.metadata.scriptContent": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev:web.metadata.runCommand": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:web": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:web.executor": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:web.options": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:web.metadata": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:web.options.script": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:web.metadata.scriptContent": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:web.metadata.runCommand": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:web": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:web.executor": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:web.options": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:web.metadata": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:web.options.script": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:web.metadata.scriptContent": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:web.metadata.runCommand": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:unit": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:unit.executor": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:unit.options": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:unit.metadata": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:unit.options.script": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:unit.metadata.scriptContent": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:unit.metadata.runCommand": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.executor": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options.script": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.scriptContent": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.runCommand": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ts": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ts.executor": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ts.options": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ts.metadata": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ts.options.script": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ts.metadata.scriptContent": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ts.metadata.runCommand": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:js": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:js.executor": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:js.options": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:js.metadata": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:js.options.script": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:js.metadata.scriptContent": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:js.metadata.runCommand": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.executor": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.options": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.metadata": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.options.script": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.metadata.scriptContent": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.metadata.runCommand": [
+      "apps/react-template-rr/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:app": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.framework:react-router": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.executor": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.defaultConfiguration": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.cwd": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.executor": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.defaultConfiguration": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.dependsOn": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.command": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.cwd": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/react-template-rr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build:web.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build:web.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test:unit.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test:unit.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test:e2e.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test:e2e.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint:ts.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint:ts.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint:js.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint:js.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.prepare.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.prepare.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/eslint-config": {
+    "root": [
+      "packages/eslint-config/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "packages/eslint-config/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/eslint-config/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/eslint-config/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/prettier-config": {
+    "root": [
+      "packages/prettier-config/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "packages/prettier-config/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/prettier-config/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/tsconfig": {
+    "root": [
+      "packages/tsconfig/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "packages/tsconfig/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/tsconfig/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/tsconfig/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}

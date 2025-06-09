@@ -1,0 +1,59 @@
+{
+  "name": "react-template-next",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/react-template-next",
+  "projectType": "application",
+  "tags": ["type:app", "framework:next"],
+  "targets": {
+    "build": {
+      "executor": "@nx/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/apps/react-template-next"
+      },
+      "configurations": {
+        "development": {
+          "outputPath": "apps/react-template-next/.next"
+        },
+        "production": {}
+      }
+    },
+    "dev": {
+      "executor": "@nx/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "react-template-next:build",
+        "dev": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "react-template-next:build:development"
+        },
+        "production": {
+          "buildTarget": "react-template-next:build:production",
+          "dev": false
+        }
+      }
+    },
+    "start": {
+      "executor": "@nx/next:server",
+      "defaultConfiguration": "production",
+      "options": {
+        "buildTarget": "react-template-next:build",
+        "dev": false
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/react-template-next/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}

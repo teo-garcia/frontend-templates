@@ -1,0 +1,587 @@
+{
+  "802556503105859118": {
+    "next:build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/react-template-next",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)"
+      ]
+    },
+    "next:dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/react-template-next"
+      }
+    },
+    "next:start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects react-template-next --includeDependentProjects -- pnpm exec nx build-deps react-template-next"
+    }
+  },
+  "4344493962866357659": {
+    "next:build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/react-template-next",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)"
+      ]
+    },
+    "next:dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/react-template-next"
+      }
+    },
+    "next:start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects react-template-next --includeDependentProjects -- pnpm exec nx build-deps react-template-next"
+    }
+  },
+  "760271981160911573": {
+    "next:build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/react-template-next",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)"
+      ]
+    },
+    "next:dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/react-template-next"
+      }
+    },
+    "next:start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects react-template-next --includeDependentProjects -- pnpm exec nx build-deps react-template-next"
+    }
+  },
+  "8529710498325581994": {
+    "next:build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/react-template-next",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)"
+      ]
+    },
+    "next:dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/react-template-next"
+      }
+    },
+    "next:start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects react-template-next --includeDependentProjects -- pnpm exec nx build-deps react-template-next"
+    }
+  },
+  "902907186322031110": {
+    "next:build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/react-template-next",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)"
+      ]
+    },
+    "next:dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/react-template-next"
+      }
+    },
+    "next:start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects react-template-next --includeDependentProjects -- pnpm exec nx build-deps react-template-next"
+    }
+  },
+  "3977252078697249129": {
+    "next:build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/react-template-next",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)"
+      ]
+    },
+    "next:dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/react-template-next"
+      }
+    },
+    "next:start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects react-template-next --includeDependentProjects -- pnpm exec nx build-deps react-template-next"
+    }
+  },
+  "8953060172511868414": {
+    "next:build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/react-template-next",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)"
+      ]
+    },
+    "next:dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/react-template-next"
+      }
+    },
+    "next:start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects react-template-next --includeDependentProjects -- pnpm exec nx build-deps react-template-next"
+    }
+  },
+  "8521793251131104492": {
+    "next:build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/react-template-next",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)"
+      ]
+    },
+    "next:dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/react-template-next"
+      }
+    },
+    "next:start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects react-template-next --includeDependentProjects -- pnpm exec nx build-deps react-template-next"
+    }
+  },
+  "14665352986588621614": {
+    "next:build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/react-template-next",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)"
+      ]
+    },
+    "next:dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/react-template-next"
+      }
+    },
+    "next:start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects react-template-next --includeDependentProjects -- pnpm exec nx build-deps react-template-next"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "11381317563671028833": {
+    "next:build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/react-template-next",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/react-template-next/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/react-template-next"
+      }
+    },
+    "next:start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/react-template-next"
+      },
+      "dependsOn": [
+        "next:build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects react-template-next --includeDependentProjects -- pnpm exec nx build-deps react-template-next"
+    }
+  }
+}

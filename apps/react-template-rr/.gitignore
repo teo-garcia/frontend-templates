@@ -1,0 +1,23 @@
+# Logs
+logs
+*.log
+pnpm-debug.log*
+tsconfig.tsbuildinfo
+
+# Node
+/node_modules/
+/build/
+/.react-router/
+*.local
+
+# Editor directories and files
+.vscode/*
+.DS_Store
+
+# secrets
+.env
+
+# e2e reports
+/test-results/
+/playwright-report/
+/playwright/.cache/

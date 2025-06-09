@@ -1,0 +1,43 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "targetDefaults": {
+    "build": {
+      "cache": true
+    },
+    "build:web": {
+      "cache": true
+    },
+    "test": {
+      "cache": true
+    },
+    "test:unit": {
+      "cache": true
+    },
+    "test:e2e": {
+      "cache": true
+    },
+    "lint": {
+      "cache": true
+    },
+    "lint:js": {
+      "cache": true
+    },
+    "lint:ts": {
+      "cache": true
+    },
+    "prepare": {
+      "cache": true
+    }
+  },
+  "plugins": [
+    {
+      "plugin": "@nx/next/plugin",
+      "options": {
+        "startTargetName": "start",
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "serveStaticTargetName": "serve-static"
+      }
+    }
+  ]
+}

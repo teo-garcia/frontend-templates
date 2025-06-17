@@ -1,10 +1,10 @@
 import '@/lib/styles/globals.css'
+
 import { Inter } from 'next/font/google'
 
+import { GlobalProviders } from '@/components/global-providers/global-providers'
 import { ThemeSwitch } from '@/components/theme-switch/theme-switch'
 import { ViewportInfo } from '@/components/viewport-info/viewport-info'
-
-import { GlobalProviders } from './components/global-providers/global-providers'
 
 import type { Metadata } from 'next'
 

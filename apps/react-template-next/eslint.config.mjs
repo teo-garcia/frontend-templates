@@ -1,5 +1,8 @@
+import baseConfig from 'eslint-config-custom'
+import reactConfig from 'eslint-config-custom/react'
 import { fixupConfigRules, fixupPluginRules } from '@eslint/compat'
-import _import from 'eslint-plugin-import'
+import nextPlugin from '@next/eslint-plugin-next'
+import prettierPlugin from 'eslint-plugin-prettier'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import js from '@eslint/js'
@@ -17,69 +20,49 @@ export default [
   {
     ignores: [
       '**/.DS_Store',
-      '**/node_modules',
-      'build',
-      '.next',
-      'package',
+      '**/node_modules/**',
+      'build/**',
+      '.next/**',
+      'dist/**',
+      'out/**',
+      'package/**',
       '**/.env',
       '**/.env.*',
       '!**/.env.example',
       '**/pnpm-lock.yaml',
       '**/package-lock.json',
       '**/yarn.lock',
+      'public/mockServiceWorker.js',
+      '**/*.config.js',
+      '**/*.config.mjs',
+      '**/*.config.ts',
+      'jest.config.*',
+      'next.config.*',
+      'tailwind.config.*',
+      'postcss.config.*',
     ],
   },
-  ...fixupConfigRules(
-    compat.extends(
-      'eslint:recommended',
-      'plugin:@typescript-eslint/recommended',
-      'next/core-web-vitals',
-      'plugin:jsx-a11y/recommended',
-      // 'plugin:tailwindcss/recommended',
-      'plugin:jest/recommended',
-      'plugin:testing-library/react',
-      'plugin:playwright/playwright-test',
-      'plugin:import/errors',
-      'plugin:import/warnings',
-      'plugin:import/typescript'
-    )
-  ),
+  ...baseConfig,
+  ...reactConfig,
+  // Next.js specific configuration
+  {
+    files: ['**/*.ts', '**/*.tsx'],
+    plugins: {
+      '@next/next': fixupPluginRules(nextPlugin),
+    },
+    rules: {
+      ...nextPlugin.configs.recommended.rules,
+      ...nextPlugin.configs['core-web-vitals'].rules,
+      '@next/next/no-html-link-for-pages': 'off',
+    },
+  },
+  // Prettier configuration
   {
     plugins: {
-      import: fixupPluginRules(_import),
+      prettier: fixupPluginRules(prettierPlugin),
     },
-
-    settings: {
-      'import/resolver': {
-        typescript: {},
-      },
-    },
-
     rules: {
-      'import/order': [
-        'error',
-        {
-          groups: [
-            'builtin',
-            'external',
-            'internal',
-            'parent',
-            'sibling',
-            'index',
-            'object',
-            'type',
-          ],
-
-          'newlines-between': 'always',
-
-          alphabetize: {
-            order: 'asc',
-            caseInsensitive: true,
-          },
-        },
-      ],
-
-      'import/no-duplicates': 'error',
+      'prettier/prettier': 'error',
     },
   },
 ]

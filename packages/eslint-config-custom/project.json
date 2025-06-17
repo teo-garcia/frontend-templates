@@ -1,4 +1,4 @@
 {
-  "name": "eslint-config",
+  "name": "eslint-config-custom",
   "$schema": "../../node_modules/nx/schemas/project-schema.json"
 }

@@ -19,6 +19,7 @@
     "module": "ES2022",
     "moduleResolution": "bundler",
     "noEmit": true,
+    "baseUrl": ".",
     "paths": {
       "~/*": ["./app/*"]
     },

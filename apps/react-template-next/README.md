@@ -1,46 +1,82 @@
-<!-- ![README.md banner](./README.png) -->
+# Next.js Template
+
+A production-ready Next.js 15 template with server-side rendering, API routes, and modern React features.
 
 ![Package License](https://img.shields.io/github/license/teo-garcia/react-template-next)
 ![Package Version](https://img.shields.io/github/package-json/v/teo-garcia/react-template-next)
 
-# React Template Next
+## 🚀 Features
 
-Start building modern web applications using React and Next.js.
+### Next.js Specific
 
-## Requirements
+- **Next.js 15** with App Router
+- **Server-side rendering (SSR)** and **Static site generation (SSG)**
+- **API routes** with built-in middleware support
+- **Layouts** and nested routing
+- **Image optimization** with `next/image`
+- **Font optimization** with `next/font`
+- **Metadata API** for SEO
 
-- `Node 22+`
-- `Git 2+`
-- `pnpm 9`
+### Development & Testing
 
-## Installation
+- **TypeScript** with strict configuration
+- **Tailwind CSS 4** for styling
+- **ESLint + Prettier** for code quality
+- **Jest + Testing Library** for unit testing
+- **Playwright** for E2E testing
+- **MSW** for API mocking
 
-1. Get the template using `npx degit`:
+## 🏗️ Project Structure
 
-```bash
-  npx degit teo-garcia/react-template-next my_project
+```
+react-template-next/
+├── app/
+│   ├── api/                     # API routes
+│   ├── components/              # Shared components
+│   │   ├── global-providers/    # Context providers
+│   │   ├── theme-switch/        # Theme switching
+│   │   └── viewport-info/       # Responsive utilities
+│   ├── features/                # Feature-specific components
+│   ├── lib/                     # Utilities and configurations
+│   │   ├── hooks/               # Custom hooks
+│   │   ├── misc/                # Utilities
+│   │   ├── mocks/               # MSW mocks
+│   │   └── styles/              # Global styles
+│   ├── layout.tsx               # Root layout
+│   ├── page.tsx                 # Home page
+│   ├── error.tsx                # Error boundary
+│   └── not-found.tsx            # 404 page
+├── e2e/                         # Playwright tests
+└── [config files]              # Next.js, TypeScript, etc.
 ```
 
-2. Install the dependencies:
+## 🔧 Development
+
+### Running the App
+
+From the monorepo root:
 
 ```bash
-  pnpm install
+# Development server
+pnpm dev:next
+
+# Production build
+pnpm build:next
+
+# Run tests
+pnpm test:next
+
+# Lint code
+pnpm lint:next
 ```
 
-3. Run the project:
+### Next.js Specific Commands
 
 ```bash
-  pnpm dev
+# Start production server (after build)
+cd apps/react-template-next
+pnpm start
+
+# Analyze bundle size
+pnpm analyze
 ```
-
-## Tools
-
-- Next for server-side rendering and static site generation.
-- React for building user interfaces.
-- Tailwind for utility-first CSS.
-- Typescript for static type checking.
-- ESLint for linting and Prettier for code formatting.
-- Husky for Git hooks and Lint Staged for running linters on staged files.
-- Jest for unit testing and Testing Library React for testing React components.
-- Playwright for end-to-end testing.
-- MSW for API mocking.

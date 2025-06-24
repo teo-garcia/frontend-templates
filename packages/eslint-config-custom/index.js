@@ -48,7 +48,7 @@ export default [
         typescript: {
           alwaysTryTypes: true,
           project: [
-            "./tsconfig.json",
+            "./tsconfig.base.json",
             "./apps/react-template-next/tsconfig.json",
             "./apps/react-template-rr/tsconfig.json",
           ],
@@ -110,7 +110,7 @@ export default [
         typescript: {
           alwaysTryTypes: true,
           project: [
-            "./tsconfig.json",
+            "./tsconfig.base.json",
             "./apps/react-template-next/tsconfig.json",
             "./apps/react-template-rr/tsconfig.json",
           ],

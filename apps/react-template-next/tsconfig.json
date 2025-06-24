@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": "../../packages/tsconfig/tsconfig.json",
   "compilerOptions": {
     "allowJs": true,
     "esModuleInterop": true,
@@ -7,7 +7,11 @@
     "incremental": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "module": "esnext",
     "moduleResolution": "bundler",
     "noEmit": true,
@@ -16,7 +20,9 @@
     "target": "ES2017",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./app/*"]
+      "@/*": [
+        "./app/*"
+      ]
     },
     "plugins": [
       {
@@ -31,5 +37,7 @@
     ".next/types/**/*.ts",
     "./jest.setup.js"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }

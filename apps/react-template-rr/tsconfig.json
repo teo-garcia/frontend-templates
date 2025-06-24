@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": "../../packages/tsconfig/tsconfig.json",
   "include": [
     "**/*",
     "**/.server/**/*",
@@ -15,19 +15,31 @@
     "incremental": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
-    "lib": ["dom", "dom.iterable", "ES2022"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "ES2022"
+    ],
     "module": "ES2022",
     "moduleResolution": "bundler",
     "noEmit": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./app/*"]
+      "~/*": [
+        "./app/*"
+      ]
     },
     "resolveJsonModule": true,
-    "rootDirs": [".", "./.react-router/types"],
+    "rootDirs": [
+      ".",
+      "./.react-router/types"
+    ],
     "strict": true,
     "target": "ES2022",
-    "types": ["node", "vite/client"],
+    "types": [
+      "node",
+      "vite/client"
+    ],
     "verbatimModuleSyntax": true
   }
 }

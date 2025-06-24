@@ -1,7 +1,5 @@
 {
   "name": "prettier-config",
   "version": "0.0.0",
-  "scripts": {
-    "test": "node index.js"
-  }
+  "main": "index.js"
 }

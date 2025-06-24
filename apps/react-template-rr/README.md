@@ -82,14 +82,12 @@ pnpm preview
 
 ## 🛠️ Available Commands
 
-| Command                   | Description                         |
-| ------------------------- | ----------------------------------- |
-| `dev`                     | Run development server              |
-| `build`                   | Build for production                |
-| `start:web`               | Serve production build              |
-| `test:unit`               | Run unit tests                      |
-| `test:e2e`                | Run E2E tests                       |
-| `lint:css`                | Lint CSS files                      |
-| `lint:js`                 | Lint JavaScript/TypeScript files    |
-| `create:component <name>` | Generate component in `components/` |
-| `create:feature <name>`   | Generate feature in `features/`     |
+| Command     | Description                      |
+| ----------- | -------------------------------- |
+| `dev`       | Run development server           |
+| `build`     | Build for production             |
+| `start:web` | Serve production build           |
+| `test:unit` | Run unit tests                   |
+| `test:e2e`  | Run E2E tests                    |
+| `lint:css`  | Lint CSS files                   |
+| `lint:js`   | Lint JavaScript/TypeScript files |

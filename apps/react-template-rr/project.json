@@ -45,6 +45,13 @@
         "command": "eslint app/**/*.{ts,tsx}",
         "cwd": "apps/react-template-rr"
       }
+    },
+    "lint:ts": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsc --noEmit",
+        "cwd": "apps/react-template-rr"
+      }
     }
   }
 }

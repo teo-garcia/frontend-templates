@@ -1,0 +1,5 @@
+# Type checking for all apps
+pnpm nx run-many --target=lint:ts --parallel=2
+
+# Run lint-staged for changed files
+pnpm lint-staged

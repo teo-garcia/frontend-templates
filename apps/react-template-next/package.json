@@ -16,7 +16,7 @@
     "test:unit": "jest",
     "test:e2e": "pnpm playwright test --ui",
     "lint:js": "eslint app/**/*.{ts,tsx}",
-    "prepare": "husky"
+    "lint:ts": "tsc --noEmit"
   },
   "dependencies": {
     "client-only": "0.0.1",

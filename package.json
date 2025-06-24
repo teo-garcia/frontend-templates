@@ -7,10 +7,20 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "nx run-many --target=dev",
-    "build": "nx run-many --target=build",
-    "lint": "nx run-many --target=lint",
-    "test": "nx run-many --target=test"
+    "dev": "nx run-many --target=dev --parallel=2",
+    "dev:next": "nx run react-template-next:dev",
+    "dev:rr": "nx run react-template-rr:dev",
+    "build": "nx run-many --target=build --parallel=2",
+    "build:next": "nx run react-template-next:build",
+    "build:rr": "nx run react-template-rr:build",
+    "lint": "nx run-many --target=lint --parallel=2",
+    "lint:next": "nx run react-template-next:lint",
+    "lint:rr": "nx run react-template-rr:lint",
+    "test": "nx run-many --target=test --parallel=2",
+    "test:next": "nx run react-template-next:test",
+    "test:rr": "nx run react-template-rr:test",
+    "clean": "nx reset && rm -rf node_modules apps/*/node_modules packages/*/node_modules",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@nx/next": "21.2.1",

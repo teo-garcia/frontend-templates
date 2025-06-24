@@ -14,9 +14,8 @@
     "start:web": "react-router-serve ./build/server/index.js",
     "test:unit": "jest --passWithNoTests",
     "test:e2e": "pnpm playwright test --ui",
-    "lint:ts": "react-router typegen && tsc",
-    "lint:js": "eslint app/**/*.{ts,tsx}",
-    "prepare": "husky"
+    "lint:ts": "tsc --noEmit",
+    "lint:js": "eslint app/**/*.{ts,tsx}"
   },
   "dependencies": {
     "@react-router/node": "7.5.3",

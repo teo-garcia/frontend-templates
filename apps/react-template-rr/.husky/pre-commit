@@ -1,5 +1,0 @@
-# Type Checking
-pnpm tsc --noEmit
-
-# Linting
-pnpm lint-staged
